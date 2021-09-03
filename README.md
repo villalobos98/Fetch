@@ -54,7 +54,7 @@ Getting Started
     -   The Point Balances Route above will display all player point
         balances
 
-Author {#authors}
+Author
 ------
 
-@Isaias\_Villalobos
+@Isaias_Villalobos
