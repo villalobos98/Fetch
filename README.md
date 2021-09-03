@@ -1,6 +1,4 @@
 # Fetch
-Project Code
-# Fetch
 Coding Exercise: README for Fetch Web Service
 =======================
 
