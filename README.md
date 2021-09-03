@@ -1,5 +1,5 @@
 # Fetch
-Coding Exercise: README for Fetch Web Service
+README for Fetch Web Service
 =======================
 
 A web service that accepts HTTP requests and returns responses based on
