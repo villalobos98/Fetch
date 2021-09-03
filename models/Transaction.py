@@ -1,7 +1,9 @@
+"""
+This class represents a transaction that every user has
+and it will contain information about their the payer, points, and date
+"""
 from datetime import datetime
 
-
-# Every Transaction will have the information from a user
 
 class Transaction:
     points: int

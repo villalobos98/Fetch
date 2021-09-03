@@ -13,8 +13,17 @@ in their accounts. But for reporting purposes we actually track their
 points per payer/partner. In our system, each transaction record
 contains: payer (string), points (integer), timestamp (date).
 
-Getting Started
----------------
+Notes
+-----------
+In this project I made the user experience simple, so that the anyone using this app 
+could understand how to use it. 
+I used used a form to send over my request data to my Flask backend server.
+I do understand that I did not have to do this, I have chosen to make the View for all 3
+routes so that using this application doesn't require Postman. You may use it optionally if 
+you would like. 
+
+I am able to change this code so that I can also parse out information from the body, 
+which I can adjust to make it work as well, it was my first implementation. 
 
 ### Dependencies
 
