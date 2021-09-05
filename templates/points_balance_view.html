@@ -2,12 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Points Balance</title>
-
+    <title>Add Transaction</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
 </head>
-    <body>
-        <form action="http://localhost:5000/points_balance" method = "POST">
-           <H1>You have made a request to the points balance rout</H1>
+<body>
+<div class="container">
+    <h3 class="title">Add Transaction</h3>
+    <div class="box">
+        <form method="POST" action="/points_balance/">
+            <button class="btn btn-primary" type="submit">Submit</button>
         </form>
-    </body>
+    </div>
+</div>
+</body>
+
 </html>

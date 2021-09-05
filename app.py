@@ -77,10 +77,11 @@ def spend_points():
 
 
 # This endpoint will display all users that have made a transaction
-@app.route('/points_balance/', methods=['GET'])
+@app.route('/points_balance/', methods=['GET', "POST"])
 def view_points_balance():
     if request.method == "GET":
-
+        return render_template('points_balance_view.html')
+    if request.method == "POST":
         # Create the dictionary to handle the format that we are sending back
         payer_points = {}
         for transaction in transaction_list:

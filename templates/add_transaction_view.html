@@ -3,13 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Add Transaction</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
 </head>
-    <body>
-        <form action="http://localhost:5000/add_transaction" method = "POST">
-            <p>Timestamp <input type = "text" name = "timestamp" /></p>
-            <p>Payer <input type = "text" name = "payer" /></p>
-            <p>Points <input type = "text" name = "points" /></p>
-            <p><input type = "submit" value = "submit" /></p>
+<body>
+<div class="container">
+    <h3 class="title">Add Transaction</h3>
+    <div class="box">
+        <form method="POST" action="/add_transaction/">
+            <div class="form-group">
+                <div class="field">
+                    <div class="form-control">
+                        <input class="input is-large" type=text name="timestamp" placeholder="timestamp">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="field">
+                    <div class="form-control">
+                        <input class="input is-large" type="text" name="payer" placeholder="payer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="field">
+                    <div class="form-control">
+                        <input class="input is-large" type="text" name="points" placeholder="Points">
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
         </form>
-    </body>
+    </div>
+</div>
+</body>
+
 </html>
