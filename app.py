@@ -92,5 +92,5 @@ def view_points_balance():
 
 
 if __name__ == '__main__':
-    app.debug = True
-    app.run(use_reloader=True)
+    # app.debug = True
+    app.run()
